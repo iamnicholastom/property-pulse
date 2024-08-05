@@ -1,5 +1,11 @@
+import Link from "next/link";
+
 const Home = () => {
-  return <div className="underline text-4xl">Home</div>;
+  return (
+    <div>
+      <Link href="/properties">Go to properties</Link>
+    </div>
+  );
 };
 
 export default Home;
